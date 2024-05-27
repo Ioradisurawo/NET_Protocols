@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34916.146
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HTTP_Protocol", "HTTP_Protocol\HTTP_Protocol.csproj", "{20853205-5EFE-4159-87DE-984C367D42E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCP_Protocol_Server", "..\TCP_Protocol\TCP_Protocol_Server.csproj", "{1814BB7D-C872-4991-A283-18F980C08131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCP_Protocol_Client", "..\TCP_Protocol_Client\TCP_Protocol_Client.csproj", "{454A8777-3585-479C-ADC4-C711C6B26FA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UDP_Protocol", "..\UDP_Protocol\UDP_Protocol.csproj", "{F9A276F1-E95D-4742-BD39-46A4446C0F25}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{20853205-5EFE-4159-87DE-984C367D42E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20853205-5EFE-4159-87DE-984C367D42E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20853205-5EFE-4159-87DE-984C367D42E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20853205-5EFE-4159-87DE-984C367D42E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1814BB7D-C872-4991-A283-18F980C08131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1814BB7D-C872-4991-A283-18F980C08131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1814BB7D-C872-4991-A283-18F980C08131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1814BB7D-C872-4991-A283-18F980C08131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{454A8777-3585-479C-ADC4-C711C6B26FA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{454A8777-3585-479C-ADC4-C711C6B26FA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{454A8777-3585-479C-ADC4-C711C6B26FA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{454A8777-3585-479C-ADC4-C711C6B26FA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F9A276F1-E95D-4742-BD39-46A4446C0F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F9A276F1-E95D-4742-BD39-46A4446C0F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F9A276F1-E95D-4742-BD39-46A4446C0F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F9A276F1-E95D-4742-BD39-46A4446C0F25}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D94A8084-3F33-409F-9A28-FAEFE0E3465D}
+	EndGlobalSection
+EndGlobal
